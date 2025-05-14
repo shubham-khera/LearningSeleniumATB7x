@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.842">
+    <properties></properties>
+
+
+
+            <testcase
+                name="automatePage"
+                time="19.291"
+                classname="PD_Ques.Oues001_02">
+            </testcase>
+            <testcase
+                name="automatePageSec02"
+                time="0.265"
+                classname="PD_Ques.Oues001_02">
+            </testcase>
+            <testcase
+                name="automatePageSec03"
+                time="0.286"
+                classname="PD_Ques.Oues001_02">
+            </testcase>
+</testsuite>

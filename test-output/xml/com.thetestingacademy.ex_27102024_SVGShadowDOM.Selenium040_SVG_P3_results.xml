@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.266">
+    <properties></properties>
+
+
+
+            <testcase
+                name="findElement"
+                time="5.266"
+                classname="com.thetestingacademy.ex_27102024_SVGShadowDOM.Selenium040_SVG_P3">
+            </testcase>
+</testsuite>

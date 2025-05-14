@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.623">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testVwoLoginNegative"
+                time="22.623"
+                classname="com.thetestingacademy.ex_19102024_502.Selenium025">
+            </testcase>
+</testsuite>
