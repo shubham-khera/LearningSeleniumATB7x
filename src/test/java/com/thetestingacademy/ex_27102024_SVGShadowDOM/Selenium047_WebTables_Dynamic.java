@@ -6,43 +6,40 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import java.util.List;
 
-public class Selenium041_Shadow_P1 {
+public class Selenium047_WebTables_Dynamic {
     EdgeDriver driver;
 
     @BeforeTest
-    public void openBrowser() {
+    public void openBrowser(){
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         options.addArguments("--guest");
         driver = new EdgeDriver(options);
     }
 
-
-    @Description("Verify Shadow DOM")
+    @Description
     @Test
-    public void test_shadow_dom(){
-
+    public void test_web_tables() throws InterruptedException{
         driver.manage().window().maximize();
-        String URL = "https://selectorshub.com/xpath-practice-page/";
+        String URL = "https://awesomeqa.com/webtable1.html";
         driver.get(URL);
         driver.manage().window().maximize();
-        // local-name() , name()- Xpath (built in)
-        WebElement pizza = driver.findElement(By.xpath("//input[@id='pizza']"));
-        pizza.sendKeys("farmhouse");
 
-    }
+        //Find the xPath for the WebTables
+        //table[@summary='Sample Table']
 
-    @AfterTest
-    public void closeBrowser() {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        WebElement table = driver.findElement(By.xpath("//table[@summary='Sample Table']"));
+        List<WebElement> row_tables = table.findElements(By.tagName("tr"));
+
+        for(int i = 0; i < row_tables.size(); i++){
+            List<WebElement> col = row_tables.get(i).findElements(By.tagName("td"));
+            for (WebElement c : col){
+                System.out.println(c.getText());
+            }
         }
-        driver.quit();
     }
 }

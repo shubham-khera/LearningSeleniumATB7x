@@ -3,38 +3,39 @@ package com.thetestingacademy.ex_27102024_SVGShadowDOM;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Selenium044_WebTables_Static {
+public class Selenium044_dup {
     EdgeDriver driver;
 
     @BeforeTest
-    public void openBrowser(){
+    public void openBrowser() {
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         options.addArguments("--guest");
         driver = new EdgeDriver(options);
     }
 
+
     @Description("Verify Web Tables")
     @Test
-    public void test_web_tables() throws InterruptedException{
+    public void test_web_tables() throws InterruptedException {
+
         driver.manage().window().maximize();
         String URL = "https://awesomeqa.com/webtable.html";
         driver.get(URL);
         driver.manage().window().maximize();
 
-
-        // Row - //table[@id="customers"]/tbody/tr
+        // Row  - //table[@id="customers"]/tbody/tr
         // Col - //table[@id="customers"]/tbody/tr[1]/td
 
         int row = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr")).size();
         int col = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr[2]/td")).size();
+
 
         System.out.println(row);
         System.out.println(col);
@@ -73,9 +74,18 @@ public class Selenium044_WebTables_Static {
                     System.out.println("------");
                     System.out.println("Helen Bennett is In - " + country_text);
                     System.out.println("Helen Bennett is Company - " + company_text);
+
+
+
                 }
+
+
             }
+
+
         }
+
+
     }
 
     @AfterTest
