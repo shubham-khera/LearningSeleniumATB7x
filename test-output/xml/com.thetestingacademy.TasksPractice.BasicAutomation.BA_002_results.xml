@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.209">
+    <properties></properties>
+
+
+
+            <testcase
+                name="automateApp"
+                time="6.060"
+                classname="com.thetestingacademy.TasksPractice.BasicAutomation.BA_002">
+            </testcase>
+            <testcase
+                name="notLogin"
+                time="1.149"
+                classname="com.thetestingacademy.TasksPractice.BasicAutomation.BA_002">
+            </testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="49.941">
+    <properties></properties>
+
+            <testcase
+                name="test_shadow_dom"
+                time="49.941"
+                classname="com.thetestingacademy.ex_27102024_SVGShadowDOM.Selenium041_Shadow_P1">
+
+            <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;pizza&apos;]&quot;}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d9b996db79d2d28d5caba15c1faebf56, findElement {using=xpath, value=//input[@id=&apos;pizza&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.64, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59346}, msedge: {msedgedriverVersion: 136.0.3240.76 (77e9ec69748f..., userDataDir: C:\Users\shkhera\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59346/devtoo..., se:cdpVersion: 136.0.3240.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9b996db79d2d28d5caba15c1faebf56">
+                <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='pizza']"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d9b996db79d2d28d5caba15c1faebf56, findElement {using=xpath, value=//input[@id='pizza']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.64, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59346}, msedge: {msedgedriverVersion: 136.0.3240.76 (77e9ec69748f..., userDataDir: C:\Users\shkhera\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59346/devtoo..., se:cdpVersion: 136.0.3240.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9b996db79d2d28d5caba15c1faebf56
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)com.thetestingacademy.ex_27102024_SVGShadowDOM.Selenium041_Shadow_P1.test_shadow_dom(Selenium041_Shadow_P1.java:34)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.ArrayList.forEach(ArrayList.java:1597)org.testng.TestRunner.privateRun(TestRunner.java:739)org.testng.TestRunner.run(TestRunner.java:614)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

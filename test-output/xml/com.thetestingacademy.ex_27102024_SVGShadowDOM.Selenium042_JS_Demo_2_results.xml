@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.293">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_js"
+                time="7.293"
+                classname="com.thetestingacademy.ex_27102024_SVGShadowDOM.Selenium042_JS_Demo_2">
+            </testcase>
+</testsuite>

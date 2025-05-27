@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.170">
+    <properties></properties>
+
+
+
+            <testcase
+                name="loginUser"
+                time="4.748"
+                classname="com.thetestingacademy.ex_27102024_SVGShadowDOM.OrangeHRM">
+            </testcase>
+            <testcase
+                name="accessTable"
+                time="0.422"
+                classname="com.thetestingacademy.ex_27102024_SVGShadowDOM.OrangeHRM">
+            </testcase>
+</testsuite>

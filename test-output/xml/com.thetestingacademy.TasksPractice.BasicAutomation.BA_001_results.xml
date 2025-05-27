@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSeleniumATB7x"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.977">
+    <properties></properties>
+
+
+
+            <testcase
+                name="visitAssert"
+                time="1.977"
+                classname="com.thetestingacademy.TasksPractice.BasicAutomation.BA_001">
+            </testcase>
+</testsuite>
